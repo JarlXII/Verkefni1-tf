@@ -28,9 +28,6 @@
 										<ul>
 											<li><a href="index.html">Heim</a></li>
 											<li><a href="generic.html">Verkefni1</a></li>
-                                            <li><a href="Verkefni 2.html">Verkefni 2</a></li>
-                                            <li><a href="Verkefni3.html">Verkefni 3</a></li>
-                                            <li><a href="lokaverkefni%201.html">Lokaverkefni</a></li>
 											<li><a href="elements.html">Ferilskrá</a></li>
 										</ul>
 									</div>
@@ -63,7 +60,7 @@
                                     Næst var hafist handa. Ég sá að valmyndin var ekki eins og ég vildi hafa hana. Eins og sést þá var hún á ensku en ekki íslensku, því þyrfti að breyta. Einnig voru tveir of margir valmöguleikar.
                                 </p>
                                 <div class="image"><img src="headere.png" alt="" /></div>
-                                <h3>General</h3>
+                                <h3>Genaral</h3>
                                     <p>
                                 Síðan var byrjað á þessum texta sem þið lesið nú og var einfaldlega byrjað að skrifa þar sem latínan er á milli p-ana. Auk þess var svo tekið út allar málsgreinar nema eina. 
                                 </p>

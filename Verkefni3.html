@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+ <head>
+		<title>Gunnar Jarl by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Gunnar Jarl</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Valmynd</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Heim</a></li>
+											<li><a href="generic.html">Verkefni1</a></li>
+                                            <li><a href="Verkefni 2.html">Verkefni 2</a></li>
+                                            <li><a href="Verkefni3.html">Verkefni 3</a></li>
+                                            <li><a href="lokaverkefni%201.html">Lokaverkefni</a></li>
+											<li><a href="elements.html">Ferilskrá</a></li>
+
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Verkefni 3: 3D prentun og 3D skönnun</h2>
+							<p>Verkefni 3 í VÉL608G/Tölvustuddri framleiðslu</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<h3>Kefli eitt</h3>
+								<p>
+                                    Þetta byrjaði þannig að ég fékk þá hugmynd að gera kefli með legu inn í sér sem myndi þannig tryggja að reim renni ekki um það heldur myndi snúa keflinu. Ég ákvað teikna það í Fusion 360 og hófst ég handa við að finna legu sem væri hægt að 3D prenta, fann ég þá þetta <a href="https://www.youtube.com/watch?v=9U2JPfkQpsE">myndband</a>. Undir myndbandinu er svo slóð sem fer með man á <a href="https://www.thingiverse.com/thing:5027112">síðu</a> þar sem hægt er að niðurhala skrá með legunni. Teiknaði ég þá kefli með því að tengja tvær svona legur með því að "extrude-a" ytri hlið þeirra þannig að þær komu saman. Næst niðurhalaði ég Prusaslicer forritinu og stilti það með því að velja prentarann "Original Prusa i3MK3S" með "print settings" á 0,15mm QUALITY (modified). Eftir að styllingarnar voru komnar setti ég keflið í prusaslicer en þá kom upp vandamál. Eftir að foritið var búið að "slice-a" keflið skoðaði ég lögin með Hafliða og benti hann á að ef keflið væri prentað á annari hliðinni, þ.e. þar sem legan er flöt, þá mundu kúlurnar og effri innri hringurinn prentast í lausu lofti. Ljóst var mér einnig að ekki væri hægt að setja stuðning eða byrja prenta keflið öðruvísi til að laga þetta var þá eina í stöðunni að hanna keflið upp á nýtt. 
+.                               </p>
+                                <div class="image"><img src="efra%20hj%C3%B3l.PNG" alt="" /></div>
+                                <h3>Kefli tvö</h3>
+                                <p>
+                                    Nú ákvað ég að teikna allt keflið frá grunni en hafði samt <a href="https://www.youtube.com/watch?v=9U2JPfkQpsE">myndbandið</a> til hliðsjónar og einnig var ákvðið að teikna það í Inventor þar sem þá er auðveldara að breyta ipt skrá í stl heldur en að breyta Fusion 360 skrá í stl. Í stað þess að hafa tvær legur ákvað ég að gera eina legu sem væri það sem kallast á ensku "needle bearing" sem ég mun hér eftir kalla keflalegu. Hér fyrir neðan má sjá "sketch" með helstu stærðum keflalegunar fyrir utan að keflin í leguni vor 9,4mm að þvermál. Fylgt var eftir myndbandinu hvað varðar bil á milli keflana í leguni og innri og ytri hrings þ.e. að bilið væri 0,3mm. "Extrude" var síðan notað frá teikninguni að neðan ásamt teikningu af hring til að gera keflið og var lengdin sett sem 50mm. Nú var keflalegan næstum komin nema það átti eftir að teikna það sem myndi halda keflunum inni í leguni, gerði ég það með því að nota extrude á teikninguna sem sést á seinni myndinni og setja lendina sem 1mm.
+                                </p>
+                                <div class="image"><img src="vin2.jpg" width="300" height="500" alt="" /></div>
+                                <p>
+                                    Eftir þetta var keflalegan kominn og ég fór þá að skoða hvernig ég ætti að prenta þetta. Ég byrjaði á að gera litið próf til að sjá hvernig það sem heldur keflunum inni myndi koma út. Ég lét aðeins prenta efsta hluta keflalegunar því það var eina sem ég hafði áhuga á að skoða og það sparaði bæði tíma og efni. Ég taldi það mikilvægt að gera þetta próf því það sem heldur keflunum inni hengur yfir þeim í lausu lofti og hvort það væri þá hægt að prenta þetta því þetta er svo lítið. Reyndist þetta svo ekki ganga eins og sést á myndinni að neðan.
+                                </p>
+                                <div class="image"><img src="vin2.jpg" width="300" height="500" alt="" /></div>
+                                <p>
+                                    Leysti ég þetta vandamál með því að setja fillet á bæði keflin og innnan á, sjá mynd að neðan, þetta virkaði og ákvað ég því að prenta keflaleguna alla. En áður en það var gert valdi ég þá stillingu í prusaslicer sem býr til stuðning við "build plate" og taldi ég það nægja sem stuðning, sjá seinni mynd að neðan.
+                                </p>
+                                <p>
+                                    Næst skar ég stuðninginn af og var þetta þá tilbúið og kom þetta út eins og á myndinni að neðan. Keflalegan virkaði og hafði ég þar með gert legu sem var tilbúinn og hægt væri að nota án þess að þurfa að setja hana saman og ekki væri hægt að smíða hana með frádráttar framleiðslu. 
+                                </p>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
